@@ -1,0 +1,9 @@
+- ProjectFile //STORES ALL
+    - Lights //ALL LIGHTS
+        -Hue
+        -Saturation
+        -Intensity
+    - Groups //ADDRESSES TO "GROUPS" OF LIGHTS
+    - Presets //ADDRESSES TO "LIGHTS" AND "GROUPS"
+    - Effects //ADDRESSES TO "EFFECTS"
+

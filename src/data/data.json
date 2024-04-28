@@ -1,42 +1,42 @@
 {
-    "fixtures": [
-        {
-            "id" : 1,
-            "name" : "Living Room 1",
-            "Hex" : "hsl(120, 100, 100)"
-        },
-        {
-            "id" : 2,
-            "name" : "Living Room 2",
-            "Hex" : "hsl(120, 100, 100)"
-        },
-        {
-            "id" : 3,
-            "name" : "Living Room 3",
-            "Hex" : "hsl(120, 100, 100)"
-        },
-        {
-            "id" : 4,
-            "name" : "Living Room 4",
-            "Hex" : "hsl(120, 100, 100)"
-        },
-        {
-            "id" : 5,
-            "name" : "Living Room 5",
-            "Hex" : "hsl(120, 100, 100)"
-        },
-        {
-            "id" : 6,
-            "name" : "Living Room 6",
-            "Hex" : "hsl(120, 100, 100)"
-        }
-    ],
-    "groups": [],
-    "scenes": [
-        {"name" : "Desert"},
-        {"name" : "Jungle"},
-        {"name" : "Jungle"},
-        {"name" : "Jungle"},
-        {"name" : "Jungle"}
-    ]
+    "projects" : [{
+        "id": 1,
+        "title" : "",
+        "date" : "",
+        "lights" : [
+            {
+                "id" : 1,
+                "name" : "",
+                "color" : ""
+            }
+        ],
+        "effects": [
+            {
+                "id": 1,
+                "title": "",
+                "execution-stack": [
+                    {
+                        "func-id" : 1,
+                        "duration" : "",
+                        "delay" : ""
+                    }
+                ]
+            }
+        ],
+        "groups": [
+            {
+                "id" : 1,
+                "title" : "",
+                "lights" : [] 
+            }
+        ],
+        "scenes": [
+            {
+                "id": 1,
+                "title" : "",
+                "effects": [],
+                "lights": []
+            }
+        ]
+    }]
 }
